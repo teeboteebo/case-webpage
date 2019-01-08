@@ -1,0 +1,16 @@
+{
+  "name": "ConnectFour",
+  "version": "1.0.0",
+  "description": "Connect Four game by grupp2 WUMA18",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "jsonflex": "^1.0.10",
+    "node-sass": "^4.10.0"
+  }
+}

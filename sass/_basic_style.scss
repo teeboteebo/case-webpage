@@ -1,0 +1,40 @@
+body {
+  background-image: url('/images/wallpaper.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  .all-content {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    main {
+      flex: 1;
+    }
+  }
+  h1 {
+    font-family: 'Gamja Flower';
+    font-weight: bold;
+    font-size: 6rem;
+    text-shadow: 3px 3px 15px rgba(0,0,0,0.75);
+    color: #fff;
+    @include media-breakpoint-down(xs) {
+      font-size: 4rem;
+    }
+  }
+  h1 > span {
+    font-size: 3.8rem;
+    font-family: "Comic Sans MS";
+  }
+  
+  h5.h1-caption {
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.75);
+  }
+}
+
+::selection {
+  background-color: transparent;
+  color: $accent-color2;
+}
